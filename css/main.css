@@ -656,7 +656,7 @@ input[type=button] {
 
 @media only screen and (min-width: 1200px) {
   /*Desktop styles here*/
-}
+
 
 /* General Styles */
 
@@ -752,6 +752,7 @@ footer h4 {
 .faq p {
   font-size: 1.125em;
   line-height: 1;
+}
 }
 
 /* ==========================================================================
