@@ -91,6 +91,7 @@ textarea {
 
 html {
   font-size: 1rem;
+  /*test*/
 }
 
 body {
@@ -207,7 +208,6 @@ footer p {
 
 footer .content-wrapper {
   width: 55%;
-  margin: 50px 0;
 }
 
 footer .contact {
@@ -221,6 +221,10 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -229,6 +233,11 @@ footer .social-icons p {
 footer .copyright {
   margin: 20px 0;
 }
+
+footer .social-icons p i {
+  font-size: 1.3125em;
+}
+
 
 /* ---------------------Mobile Styles Homepage*/
 
@@ -307,12 +316,9 @@ input[type=button] {
 
 .features .features-items {
   display: flex;
-  /*justify-content: center;
+  justify-content: center;
   align-items: flex-start;
-  flex-flow: row wrap;*/
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  flex-flow: row wrap;
 }
 
 .features i {
@@ -516,7 +522,7 @@ input[type=button] {
 
   h3 {
     font-size: 1.5em;
-    line-height: 1.25em;
+    line-height: 1.25;
   }
 
   /*Header */
@@ -641,6 +647,11 @@ input[type=button] {
     line-height: 1.285;
   }
 
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
+
   footer .copyright {
     width: 100%;
   }
@@ -750,7 +761,7 @@ input[type=button] {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 30%;
+    width: 40%;
   }
 
   .form-description p {
@@ -764,18 +775,13 @@ input[type=button] {
   }
 
   .features-items {
-    outline: purple 3px dotted;
-    /*flex-flow: column wrap;*/
+    flex-flow: column wrap;
   }
 
   .features article {
-    /*flex-basis: 33%;*/
-    outline: 3px red dotted;
+    flex-basis: 33%;
   }
 
-  .features-item-description {
-    outline: 3px royalblue solid;
-  }
 
   .features i {
     font-size: 3.75em;
@@ -798,15 +804,20 @@ input[type=button] {
 
   /* Footer */
 
+  footer .content-wrapper {
+    width: 65%;
+  }
+
+  footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
   footer h4 {
     font-size: 1.875em;
   }
-
-  .social .social-icons {
-    font-size: 1.25em;
-    margin-bottom: 40px;
-  }
-
 
   /* ==============================About Page ===================*/
 
@@ -818,11 +829,9 @@ input[type=button] {
   .contact-section .content-wrapper h2 {
     width: 95%;
     font-size: 3em;
-    outline: 3px dotted purple;
   }
 
   .contact-content .about {
-    outline: 3px solid blue;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -830,11 +839,9 @@ input[type=button] {
 
   .contact-content h4 {
     font-size: 1.875em;
-    outline: 3px red dotted;
   }
 
   .contact-content p {
-    outline: 3px solid green;
     padding: 10px;
   }
 
