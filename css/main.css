@@ -315,6 +315,11 @@ input[type=button] {
   text-align: center;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .features p {
   text-align: center;
   margin: 0;
@@ -581,6 +586,11 @@ input[type=button] {
     flex-basis: 50%;
   }
 
+  .features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
+  }
+
   .features .features-items-description {
     width: 62%;
   }
@@ -596,7 +606,7 @@ input[type=button] {
     width: 85%;
   }
 
-  .reviews article figure, 
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
@@ -753,8 +763,23 @@ input[type=button] {
     width: 90%;
   }
 
+  .features-items {
+    outline: purple 3px dotted;
+    /*flex-flow: column wrap;*/
+  }
+
   .features article {
-    flex-basis: 33%;
+    /*flex-basis: 33%;*/
+    outline: 3px red dotted;
+  }
+
+  .features-item-description {
+    outline: 3px royalblue solid;
+  }
+
+  .features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
   }
 
   /* Reviews */
@@ -771,9 +796,17 @@ input[type=button] {
     width: 50%;
   }
 
+  /* Footer */
+
   footer h4 {
     font-size: 1.875em;
   }
+
+  .social .social-icons {
+    font-size: 1.25em;
+    margin-bottom: 40px;
+  }
+
 
   /* ==============================About Page ===================*/
 
@@ -788,7 +821,7 @@ input[type=button] {
     outline: 3px dotted purple;
   }
 
-  .contact-content .about{
+  .contact-content .about {
     outline: 3px solid blue;
     display: flex;
     justify-content: space-between;
