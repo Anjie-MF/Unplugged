@@ -257,6 +257,8 @@ footer .social-icons p {
   font-weight: 500;
   line-height: 1.2;
   color: white;
+  margin: 0;
+  padding-bottom: 215px;
 }
 
 /*Aside*/
@@ -378,11 +380,10 @@ input[type=button] {
 
 .contact-section .content-wrapper {
   margin: 0;
-
 }
 
 .contact-section h2 {
-  margin: 0 0 0 10px;
+  margin-left: 0;
 }
 
 .contact-section {
