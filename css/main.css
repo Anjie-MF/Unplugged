@@ -231,10 +231,10 @@ footer .social-icons p {
 }
 
 footer .copyright {
-  margin: 20px 0;
+  margin: 40px 0;
 }
 
-footer .social-icons p i {
+footer .social-icons p {
   font-size: 1.3125em;
 }
 
@@ -324,6 +324,8 @@ input[type=button] {
 .features i {
   font-size: 3.75em;
   margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
 }
 
 .features p {
@@ -374,6 +376,15 @@ input[type=button] {
   left: 0;
 }
 
+.contact-section .content-wrapper {
+  margin: 0;
+
+}
+
+.contact-section h2 {
+  margin: 0 0 0 10px;
+}
+
 .contact-section {
   background-color: #527158;
   display: flex;
@@ -384,7 +395,7 @@ input[type=button] {
 }
 
 .contact-content p {
-  margin: 0;
+  margin: 0 0 10px 0;
 }
 
 /*===========FAQ============*/
@@ -539,6 +550,10 @@ input[type=button] {
   header nav {
     width: 20%;
   }
+  
+  header nav ul li a {
+    padding-left: 20px;
+  }
 
   header figure {
     width: 30%;
@@ -677,6 +692,11 @@ input[type=button] {
 
   .contact-section .content-wrapper h2 {
     width: 80%;
+    margin: 30px 54px 30px 0;
+  }
+
+  .contact-section p {
+    margin: 0 0 0 10px;
   }
 
   .contact-content {
@@ -782,7 +802,6 @@ input[type=button] {
     flex-basis: 33%;
   }
 
-
   .features i {
     font-size: 3.75em;
     margin-bottom: 40px;
@@ -839,6 +858,11 @@ input[type=button] {
 
   .contact-content h4 {
     font-size: 1.875em;
+    margin: 20px 0 20px 20px;
+  }
+
+  .contact-section .content-wrapper h2 {
+    margin: 30px 54px 30px 20px;
   }
 
   .contact-content p {
